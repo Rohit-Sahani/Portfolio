@@ -140,3 +140,24 @@ footer {
 .contact-list a:hover {
   text-decoration: underline;
 }
+
+/* ====== Resume Section Styling ====== */
+.resume {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.resume a {
+  display: inline-block;
+  background: #238636;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.resume a:hover {
+  background: #2ea043;
+}
